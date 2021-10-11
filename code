@@ -9,11 +9,11 @@ class Main {
     // create an object of Scanner class
     Scanner input = new Scanner(System.in);
 
-    // ask users to enter operator
+    // ask user to enter operator
     System.out.println("Choose an operator: +, -, *, or /");
     operator = input.next().charAt(0);
 
-    // ask users to enter numbers
+    // ask user to enter numbers
     System.out.println("Enter first number");
     number1 = input.nextDouble();
 
