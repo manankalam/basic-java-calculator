@@ -9,7 +9,7 @@ class Main {
     // create an object of Scanner class
     Scanner input = new Scanner(System.in);
 
-    // ask user to enter operators
+    // ask users to enter operators
     System.out.println("Choose an operator: +, -, *, or /");
     operator = input.next().charAt(0);
 
