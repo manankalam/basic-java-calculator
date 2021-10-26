@@ -6,7 +6,7 @@ class Main {
     char operator;
     Double number1, number2, result;
 
-    // create an object of Scanner class
+    // creating an object of Scanner class
     Scanner input = new Scanner(System.in);
 
     // ask users to enter operators
