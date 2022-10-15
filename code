@@ -1,3 +1,4 @@
+import package.com
 import java.util.Scanner;
 import java.util.Date;
 
@@ -5,6 +6,7 @@ class Main {
   public static void main(String[] args) {
 
     char operator;
+    Double number1, number2, result;
     Double number1, number2, result;
 
 
@@ -14,8 +16,13 @@ class Main {
     System.out.println("Choose an operator: +, -, *, or /");
     operator = input.next().charAt(0);
 
+ patch-2
     // ask the users to enter numbers
     System.out.println("Enter first number");
+
+    // ask the user to enter numbers
+    System.out.println("Enter first num");
+main
     number1 = input.nextDouble();
 
     System.out.println("Enter second number");
@@ -23,7 +30,7 @@ class Main {
 
     switch (operator) {
 
-      // performs addition between numbers
+      // perform addition between numbers
       case '+':
         result = number1 + number2;
         System.out.println(number1 + " + " + number2 + " = " + result);
