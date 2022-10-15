@@ -17,6 +17,7 @@ class Main {
     // ask users to enter operators +, -, *, or /
     System.out.println("Choose an operator: +, -, *, or /");
     operator = input.next().charAt(0);
+    operator = input.next().charAt(0);
 
  patch-2
     // ask the users to enter numbers
