@@ -16,8 +16,13 @@ class Main {
     System.out.println("Choose an operator: +, -, *, or /");
     operator = input.next().charAt(0);
 
+ patch-2
+    // ask the users to enter numbers
+    System.out.println("Enter first number");
+
     // ask the user to enter numbers
     System.out.println("Enter first num");
+main
     number1 = input.nextDouble();
 
     System.out.println("Enter second number");
