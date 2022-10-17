@@ -1,4 +1,4 @@
-import package.com
+
 import java.util.Scanner;
 import java.util.Date;
 
@@ -7,12 +7,15 @@ class Main {
 
     char operator;
     Double number1, number2, result;
-    Double number1, number2, result;
+    Double number1, number2;
 
 
     Scanner input = new Scanner(System.in);
+patch-3
      Scanner input = new Scanner(System.in);
     Scanner input = new Scanner(System.in);
+
+main
 
 
     // ask users to enter operators +, -, *, or /
@@ -24,14 +27,14 @@ class Main {
     // ask the users to enter numbers
     System.out.println("Enter first number");
 patch-1
-    System.out.println("Enter first number");
+  ;
 
 
     // ask the user to enter numbers
     System.out.println("Enter first num");
 main
  main
-    number1 = input.nextDouble();
+  
 
     System.out.println("Enter second number");
     System.out.println("Enter second number");
